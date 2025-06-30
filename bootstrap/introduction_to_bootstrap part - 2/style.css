@@ -10,6 +10,8 @@
     background-color: white;
     text-align: center;
     padding: 20px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
 .main-heading{

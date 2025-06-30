@@ -6,7 +6,7 @@ body{
 }
 
 .todo-card{
-    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/todolistbg.png");
+    background-image: url("https://res.cloudinary.com/db3erodfw/image/upload/v1751127139/Book%20Pencil.png");
     background-size: cover;
     height: 100vh;
 }
