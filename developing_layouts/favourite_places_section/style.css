@@ -32,3 +32,8 @@
     font-family: "Roboto";
     font-size: 13px;
 }
+
+.favourite-place-card-image{
+    height: 100px;
+    width: 80px;
+}
