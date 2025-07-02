@@ -273,3 +273,176 @@ Home Page
 
 ---
 
+Your HTML and CSS code together make up a **complete tourism website** with:
+
+### ✅ Total Functional Components:
+
+1. **Homepage ("Tourism")**
+
+   * Fullscreen background
+   * CTA button ("Get Started")
+
+2. **Favourite Places Section**
+
+   * Lists 4 tourist places:
+
+     * Taj Mahal
+     * Golden Temple
+     * Mysore Palace
+     * Varanasi Temple
+
+3. **Detailed View Pages for Each Place**
+
+   * Each has a Bootstrap carousel with 3 images
+   * Text description
+   * "Go Back" button to return to Favourite Places
+
+4. **Navigation with JS**
+
+   * Handled using the `display()` function from the `ccbp-ui-kit.js` script
+   * This toggles visibility of sections
+
+---
+
+### 📦 Summary of Total Files and Features:
+
+| Item                    | Count/Status            |
+| ----------------------- | ----------------------- |
+| HTML Sections           | 6 total                 |
+| Places in List          | 4                       |
+| Carousel in Each Place  | Yes (3 images each)     |
+| External Libraries Used | Bootstrap, jQuery       |
+| CSS File                | 1 (plus Bootstrap)      |
+| JS Navigation Logic     | From CCBP UI Kit        |
+| Fonts Used              | Google Fonts (multiple) |
+| Responsiveness          | Via Bootstrap classes   |
+
+---
+
+### 💡 Suggestions for Completion (Optional Enhancements):
+
+* Add a **navigation bar** to jump to sections.
+* Make the `display()` function defined in your own JS file if you're not using ccbp-ui-kit.
+* Add **footer** with contact info/social links.
+* Add **Google Maps embed** for each place.
+* Improve **accessibility** with proper `alt` tags and semantic HTML.
+
+
+---
+
+# 📋 HTML Lists
+
+HTML Lists are a way to **group related pieces of information** so that they are **easy to read and understand**.
+
+✅ **Examples:**
+
+* Shopping List
+* To-do List
+
+There are mainly **two types of Lists** in HTML:
+
+* Unordered List
+* Ordered List
+
+---
+
+## 🔹 3.1 Unordered List
+
+An **Unordered List** is a collection of related items that **have no special order or sequence**.
+
+### ✅ Example: List of Hobbies
+
+* Painting
+* Reading Books
+* Playing the Guitar
+
+### 🧾 HTML Syntax
+
+```html
+<ul>
+  <li>Painting</li>
+  <li>Reading Books</li>
+  <li>Playing the Guitar</li>
+</ul>
+```
+
+> 🟢 **Note:** By default, list items in the Unordered List are marked with **bullets**.
+
+---
+
+### 🎨 3.1.1 Styling Unordered List
+
+The CSS `list-style-type` property is used to **style the unordered list**.
+
+### 🧾 CSS Example:
+
+```css
+.unordered-square-list {
+  list-style-type: square;
+}
+```
+
+### ✅ Possible Values for `list-style-type`:
+
+| Value    | Description                        |
+| -------- | ---------------------------------- |
+| `square` | Solid square bullets               |
+| `circle` | Hollow circle bullets              |
+| `disc`   | Solid circle bullets (**default**) |
+| `none`   | No bullets                         |
+
+---
+
+## 🔸 3.2 Ordered List
+
+An **Ordered List** is a collection of related items that **follow some order or sequence**.
+
+### ✅ Example: Web Technologies Learning Steps
+
+1. Go through the HTML elements and CSS properties
+2. Complete the Todolist Coding Practice
+3. Go through the Bootstrap Concepts
+4. Read the Bootstrap cheat sheet
+5. Build a Tourism Website
+
+### 🧾 HTML Syntax
+
+```html
+<ol>
+  <li>Go through the HTML elements and CSS properties</li>
+  <li>Complete the Todolist Coding Practice</li>
+  <li>Go through the Bootstrap Concepts</li>
+  <li>Read the Bootstrap cheat sheet</li>
+  <li>Build a Tourism Website</li>
+</ol>
+```
+
+> 🟢 **Note:** By default, list items in the Ordered List are marked with **numbers**.
+
+---
+
+### 🎨 3.2.1 Styling Ordered List
+
+The CSS `list-style-type` property is used to **style the ordered list**.
+
+### 🧾 CSS Example:
+
+```css
+.ordered-lower-roman-list {
+  list-style-type: lower-roman;
+}
+```
+
+### ✅ Possible Values for `list-style-type`:
+
+| Value         | Description                              |
+| ------------- | ---------------------------------------- |
+| `upper-alpha` | Uppercase letters (A, B, C, …)           |
+| `lower-alpha` | Lowercase letters (a, b, c, …)           |
+| `upper-roman` | Uppercase Roman numerals (I, II, III, …) |
+| `lower-roman` | Lowercase Roman numerals (i, ii, iii, …) |
+| `decimal`     | Numbers (1, 2, 3, …)                     |
+| `none`        | No numbering                             |
+
+---
+
