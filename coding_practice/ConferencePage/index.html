@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conference Page</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery, Popper, and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!-- Conference Home Page -->
+     <div id="sectionConferenceHomePage">
+        <img src="https://res.cloudinary.com/db3erodfw/image/upload/v1751534516/conference-img_qy7lpe.png" alt="conference-img" class="conference-image">
+        <div class="conference-text-container">
+            <h1 class="conference-title">The Things Conference</h1>
+            <p class="conference-description">Redefining the future of IoT with LoRaWAN</p>
+            <button class="btn btn-primary" onclick="display('sectionConferencePage')">Know more</button>
+        </div>        
+     </div>
+
+    <!-- Conference Details Page -->
+     <div id="sectionConferencePage">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/W_2hCKnzWj0?rel=0" allowfullscreen></iframe>
+        </div>
+        <div class="conference-text-container">
+            <h1 class="conference-details-title">The Things Conference</h1>
+            <p class="conference-details-description">Join Asia's Largest Conference on LoRaWAN</p>
+            <div class="d-flex justify-content-center">
+                <div class="conference-stats-container">
+                    <h1 class="conference-stats-count">1400+</h1>
+                    <p class="conference-stats-lable">Attendess</p>
+                </div>
+                <div class="conference-stats-container">
+                    <h1 class="conference-stats-count">100+</h1>
+                    <p class="conference-stats-lable">Workshops</p>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="conference-stats-container">
+                    <h1 class="conference-stats-count">120+</h1>
+                    <p class="conference-stats-lable">Speakers</p>
+                </div>
+                <div class="conference-stats-container">
+                    <h1 class="conference-stats-count">10+</h1>
+                    <p class="conference-stats-lable">Countries</p>
+                </div>
+            </div>
+        </div>
+     </div>
+
+    <!-- CCBP UI Kit -->
+
+    <script
+      type="text/javascript"
+      src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"
+    ></script>
+</body>
+</html>
