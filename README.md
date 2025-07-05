@@ -1,23 +1,59 @@
+## 🌐 **HTML + CSS Learning Path**
+
+---
+
 ### 🧱 **HTML Basics**
 
 * **Tags**
 
-  * Heading - `h1`
-  * Paragraph - `p`
-  * Button - `button`
-  * Container - `div`
-  * Image - `img`
+  * `h1` – Heading
+  * `p` – Paragraph
+  * `button` – Button
+  * `div` – Container
+  * `img` – Image
 
-    * `src` Attribute
-* **HTML Lists**
+    * `src` – Source Attribute
+* **Lists**
 
-  * Unordered List - `ul`
-  * Ordered List - `ol`
-  * List Item - `li`
+  * `ul` – Unordered List
+  * `ol` – Ordered List
+  * `li` – List Item
 
 ---
 
-### 🏷️ **HTML Attributes**
+### 🔗 **HTML Anchor (`<a>`)**
+
+* Used to create hyperlinks:
+
+  * External links (e.g., to a website)
+  * Internal navigation (within the same page)
+* **Attributes**
+
+  * `href` – Destination URL or `#id` for internal
+  * `target="_blank"` – Open in new tab
+
+---
+
+### 🧭 **Internal Navigation**
+
+* Use `id` on destination section
+* Link using `href="#sectionId"`
+
+```html
+<a href="#about">Go to About</a>
+<div id="about">...</div>
+```
+
+---
+
+### 🚫 **Void (Self-Closing) Elements**
+
+* `<br>` – Line break
+* `<hr>` – Horizontal line
+
+---
+
+### 🏷️ **Common HTML Attributes**
 
 * `class`
 * `id`
@@ -25,7 +61,7 @@
 
 ---
 
-### 🎨 **CSS Typography & Text**
+### 🎨 **CSS Text & Font Styling**
 
 * `color`
 * `font-size`
@@ -37,7 +73,7 @@
 
 ---
 
-### 🎨 **CSS Background**
+### 🖼️ **CSS Background Styling**
 
 * `background-color`
 * `background-image`
@@ -54,18 +90,16 @@
 * `border`
 
   * `border-radius`
+
+    * `border-top-left-radius`
+    * `border-top-right-radius`
+    * `border-bottom-left-radius`
+    * `border-bottom-right-radius`
   * `border-width`
-
-#### 🎯 Border Radius Variants
-
-* `border-top-left-radius`
-* `border-top-right-radius`
-* `border-bottom-left-radius`
-* `border-bottom-right-radius`
 
 ---
 
-### 📐 **Flexbox Utilities**
+### 🧰 **Flexbox Layout**
 
 * `d-flex`
 * `flex-row`
@@ -76,28 +110,52 @@
 
 ---
 
-### ⚙️ **Frameworks & UI Kits**
+### 🖌️ **Structure & Styling Practices**
 
-* **Bootstrap**
+* Use `div`s for layout structure
+* Apply styles with:
 
-  * Buttons
-  * Carousel
-  * Video Embed
-
-    * YouTube Video
-* **CCBP UI Kit**
-
-  * Display Utility
+  * CSS
+  * Bootstrap
+  * Google Fonts (via import)
 
 ---
 
-### 🌐 **Web Fundamentals**
+### 📷 **Embedding Media**
+
+* Wrap images in links:
+
+```html
+<a href="https://example.com">
+  <img src="image.png" />
+</a>
+```
+
+---
+
+### ⚙️ **Bootstrap Components**
+
+* Buttons
+* Carousel
+* Video Embed
+
+  * YouTube Video
+
+---
+
+### 🧩 **CCBP UI Kit**
+
+* Display Utility
+
+---
+
+### ☁️ **Web Fundamentals**
 
 * **Internet**
 
   * IP Address
   * DNS Server
-* **Amazon Web Services (AWS)**
+* **AWS (Amazon Web Services)**
 
   * Route 53
   * S3
