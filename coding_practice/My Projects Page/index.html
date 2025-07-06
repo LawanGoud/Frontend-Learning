@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects Page</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery, Popper, and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!-- Home Page -->
+     <div id="sectionMyProjectsHome">
+        <div class="my-projects-home-page">
+            <img src="https://res.cloudinary.com/db3erodfw/image/upload/v1751823276/software-developer-img_zd07bd.png" alt="software-developer-img" class="software-developer-image">
+            <h1 class="my-projects-heading">My Projects</h1>
+            <p class="my-projects-description">
+                There are a few of my Static Website projects that I have developed using HTML, CSS and Bootstrap
+            </p>
+            <div class="d-flex flex-row justify-content-center">
+                <img src="https://res.cloudinary.com/db3erodfw/image/upload/v1751823284/advanced-technologies-img_eftzop.png" alt="" class="my-project-image" onclick="display('sectionAdvancedTechnologies')">
+                <img src="https://res.cloudinary.com/db3erodfw/image/upload/v1751823292/diwali-img_jpgrvm.png" alt="" class="my-project-image" onclick="display('sectionDiwali')">
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <img src="https://res.cloudinary.com/db3erodfw/image/upload/v1751823301/food-img_prxj4v.png" alt="" class="my-project-image" onclick="display('sectionFoodOrder')">
+                <img src="https://res.cloudinary.com/db3erodfw/image/upload/v1751823303/news-paper-img_rbrpbt.png" alt="" class="my-project-image" onclick="display('sectionNews')">
+            </div>        
+        </div>        
+     </div>
+
+
+     <!-- Advanced Technologies Page -->
+    <div id="sectionAdvancedTechnologies">
+        <div class="advanced-technologies-bg-container d-flex flex-column justify-content-end">
+            <div class="advanced-technologies-card">
+                <h1 class="advanced-technologies-title">Advanced Technologies</h1>
+                <p class="advanced-technologies-description">
+                    Machinery and equipment developed from the application of scientific knowledge.
+                </p>
+                <button class="advanced-technologies-learn-more-button">Learn more</button>
+                <button class="btn btn-primary" onclick="display('sectionMyProjectsHome')">Back</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Diwali Page -->
+     <div id="sectionDiwali">
+        <div class="diwali-top-section">
+            <h1 class="diwali-top-section-heading">Celebrate Diwali with your friends</h1>
+        </div>
+        <div class="diwali-bottom-section">
+
+            <div class="d-flex justify-content-center">
+                <!-- Diwali Air Balloon -->
+                <div class="diwali-card-item">
+                    <img src="https://res.cloudinary.com/db3erodfw/image/upload/v1751357031/lamp-img_rlasz9.png" alt="diwali-lamp" class="diwali-card-image">
+                    <h1 class="diwali-card-name">Diwali Air Balloon</h1>
+                    <p class="diwali-card-price">Rs 369</p>
+                </div>
+
+                <!-- Diwali Lamp -->
+                <div class="diwali-card-item">
+                    <img src="https://res.cloudinary.com/db3erodfw/image/upload/v1751357056/diya-img_qq0epk.png" alt="diwali-lamp" class="diwali-card-image">
+                    <h1 class="diwali-card-name">Diwali - Lamp</h1>
+                    <p class="diwali-card-price">Rs 50</p>
+                </div>
+            </div>
+            
+            <div class="d-flex justify-content-center">
+                <!-- Sparklers -->
+                <div class="diwali-card-item">
+                    <img src="https://res.cloudinary.com/db3erodfw/image/upload/v1751357080/firework-img_hsx85m.png" alt="diwali-lamp" class="diwali-card-image">
+                    <h1 class="diwali-card-name">Sparklers</h1>
+                    <p class="diwali-card-price">Rs 150</p>
+                </div>
+
+                <!-- Fire Crackers -->
+                <div class="diwali-card-item">
+                    <img src="https://res.cloudinary.com/db3erodfw/image/upload/v1751357117/firecracker-img_msovlb.png" alt="diwali-lamp" class="diwali-card-image">
+                    <h1 class="diwali-card-name">Fire Cracker</h1>
+                    <p class="diwali-card-price">Rs 560</p>
+                </div>
+            </div>
+            <button class="btn btn-primary" onclick="display('sectionMyProjectsHome')">Back</button>
+        </div>        
+     </div>
+
+
+    <!-- Happy Meals Page -->
+    <div id="sectionFoodOrder">
+        <div class="bg-container d-flex flex-column justify-content-end">
+            <div class="order-card">
+                <h1 class="order-card-title">Happy Meals</h1>
+                <p class="order-card-description">Discover the best foods over the 1,000 restaurants</p>
+                <button type="button" class="order-card-button">Book Now</button>
+                <button class="btn btn-primary" onclick="display('sectionMyProjectsHome')">Back</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- NewsPaper Article Page -->
+    <div id="sectionNews">
+        <div class="news-bg-container d-flex flex-column justify-content-end">
+            <div class="news-card">
+                <p class="news-category">NEWS OF THE DAY</p>
+                <h1 class="news-title">iB Cricket announces world's first Virtual Reality Cricket League</h1>
+                <p class="news-description">iB Cricket and Viu together have announced the World's first virtual reality cricket league featuring 12 international cricketers, who will be competing against each other for the iB Cricket Super Over League title in Mumbai. Iconic cricketers like Virender Sehwag, Suresh Raina, Brendon McCullum will be competing in the league.</p>
+                <button type="button" class="button">Read More</button>
+                <button class="btn btn-primary" onclick="display('sectionMyProjectsHome')">Back</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- CCBP UI Kit -->
+
+    <script
+      type="text/javascript"
+      src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"
+    ></script>
+</body>
+</html>
