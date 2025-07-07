@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.yoga-homepage-bg-container{
+    background-image: url("https://res.cloudinary.com/db3erodfw/image/upload/v1751913277/yoga-bg_pkdoub.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+.yoga-homepage-title{
+    text-align: center;
+    color: #132d84;
+    font-family: "Roboto";
+    font-size: 35px;
+    font-weight: bold;
+    padding: 30px;
+}
+
+.yoga-girl{
+    height: 400px;
+}
+
+.yoga-homepage-content{
+    padding: 50px;
+}
+
+.yoga-homepage-description{
+    text-align: center;
+    color: #323f4b;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.yoga-homepage-button{
+    color: #ffe2ab;
+    background-color: #132d84;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 50px;
+    width: 136px;
+}
+
+/* Types of Yoga */
+
+.yoga-types-container{
+    background-color: #ffedcb;
+    padding-bottom: 30px;
+}
+
+
+.yoga-girl-without-headphones{
+    height: 200px;
+}
+
+.yoga-types-content{
+    background-color: #ffe2ab;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.yoga-types-title{
+    text-align: center;
+    color: #132d84;
+    font-family: "Roboto";
+    font-size: 35px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.yoga-girl-poses{
+    height: 150px;
+    width: 150px;
+}
+
+.yoga-card-content{
+    padding: 20px;
+    text-align: left;
+}
+
+.yoga-card-title{
+    color: #132d84;
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 20px;
+}
+.yoga-card-description{
+    color: #253263;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 16px;
+}
+
