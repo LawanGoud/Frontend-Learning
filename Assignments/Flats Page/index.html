@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flats Page</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery, Popper, and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!-- Sunrise Avenue Home Page -->
+     <div id="sectionSunriseAvenueHomepage">
+        <div class="sunrise-avenue-bg-container d-flex flex-column justify-content-end">
+            <div class="sunrise-avenue-card">
+                <h1 class="sunrise-avenue-title">Sunrise Avenue</h1>
+                <p class="sunrise-avenue-description">Move to what moves you.</p>
+                <button class="sunrise-avenue-button" onclick="display('sectionFlatsList')">Get Started</button>
+            </div>        
+        </div>
+    </div>
+
+    <!-- Flats List Page -->
+     <div id="sectionFlatsList">
+        <div class="sunrise-avenue-flats-list">
+            <h1 class="sunrise-avenue-flats-title">Sunrise Avenue</h1>
+
+            <div class="sunrise-avenue-flats-item d-flex" onclick="display('section3BHK')">
+                <img src="https://res.cloudinary.com/db3erodfw/image/upload/v1751917447/flats-list-card1-img_c278zb.png" alt="flats-list-card1-img" class="sunrise-avenue-flats-image">
+                <div class="sunrise-avenue-flats-info">
+                    <h1 class="sunrise-avenue-flats-name">3BHK Flat</h1>
+                    <p class="sunrise-avenue-flats-description">This is a fully furnished house with handmade furniture including a luxury en-suite facilities pack. Its built-up area is about 1600sq.ft. A spacious home for you to live in.</p>
+                </div>
+            </div>
+
+            <div class="sunrise-avenue-flats-item d-flex" onclick="display('section2BHK')">
+                <img src="https://res.cloudinary.com/db3erodfw/image/upload/v1751917459/flats-list-card2-img_ns6umv.png" alt="flats-list-card2-img" class="sunrise-avenue-flats-image">
+                <div class="sunrise-avenue-flats-info">
+                    <h1 class="sunrise-avenue-flats-name">2BHK Flat</h1>
+                    <p class="sunrise-avenue-flats-description">A minimalist house made for modern-day families. It is fully furnished with trending furniture. Its built-up area is about 1200sq.ft.</p>
+                </div>
+            </div>
+        
+            <div class="sunrise-avenue-flats-item d-flex" onclick="display('section4BHK')">
+                <img src="https://res.cloudinary.com/db3erodfw/image/upload/v1751917462/flats-list-card3-img_c6x8n8.png" alt="flats-list-card3-img" class="sunrise-avenue-flats-image">
+                <div class="sunrise-avenue-flats-info">
+                    <h1 class="sunrise-avenue-flats-name">4BHK Flat</h1>
+                    <p class="sunrise-avenue-flats-description">A contemporary home with more color and vibrancy. It is fully furnished with elegant furniture. Its built-up area is about 3600sq.ft.</p>
+                </div>
+            </div>
+
+            <button class="sunrise-avenue-button" onclick="display('sectionSunriseAvenueHomepage')">Back</button>        
+        </div>
+     </div>
+
+
+        <!-- 3BHK Flat Page-->
+         <div id="section3BHK">
+            <div class="sunrise-avenue-flats-bg-container">
+                <img src="https://res.cloudinary.com/db3erodfw/image/upload/v1751918248/flats-list-d1-img_ycunxm.png" alt="flats-list-d1-img" class="flat-image">
+                <h1 class="sunrise-avenue-flats-price">RS 3000/-</h1>
+                <div class="sunrise-avenue-flats-details d-flex">
+                    <img src="https://res.cloudinary.com/db3erodfw/image/upload/v1751918240/flats-list-location-icon-img_vdpi8f.png" alt="location-icon" class="location-icon">
+                    <p class="sunrise-avenue-address">D/N 5-2,Food street,Indore</p>
+                </div>
+                <h1 class="sunrise-avenue-flats-title">Description</h1>
+                <p class="sunrise-avenue-flat-description">This is a fully furnished house with handmade furniture including a luxury en-suite facilities pack. Its built-up area is about 1600sq.ft. A spacious home for you to live in.</p>
+                <div class="text-center">
+                    <button class="sunrise-avenue-button">Confirm</button>
+                    <button class="sunrise-avenue-button" onclick="display('sectionFlatsList')">Back</button>
+                </div>
+            </div>            
+         </div>
+
+        <!-- 2BHK Flat Page-->
+         <div id="section2BHK">
+            <div class="sunrise-avenue-flats-bg-container">
+                <img src="https://res.cloudinary.com/db3erodfw/image/upload/v1751918259/flats-list-d2-img_nhgzkv.png" alt="flats-list-d1-img" class="flat-image">
+                <h1 class="sunrise-avenue-flats-price">RS 2000/-</h1>
+                <div class="sunrise-avenue-flats-details d-flex">
+                    <img src="https://res.cloudinary.com/db3erodfw/image/upload/v1751918240/flats-list-location-icon-img_vdpi8f.png" alt="location-icon" class="location-icon">
+                    <p class="sunrise-avenue-address">D/N 5-2,Food street,Indore</p>
+                </div>
+                <h1 class="sunrise-avenue-flats-title">Description</h1>
+                <p class="sunrise-avenue-flat-description">This is a fully furnished house with handmade furniture including a luxury en-suite facilities pack. Its built-up area is about 1600sq.ft. A spacious home for you to live in.</p>
+                <div class="text-center">
+                    <button class="sunrise-avenue-button">Confirm</button>
+                    <button class="sunrise-avenue-button" onclick="display('sectionFlatsList')">Back</button>
+                </div>
+            </div>            
+         </div>
+
+        <!-- 4BHK Flat Page-->
+         <div id="section4BHK">
+            <div class="sunrise-avenue-flats-bg-container">
+                <img src="https://res.cloudinary.com/db3erodfw/image/upload/v1751918262/flats-list-d3-img_chjiyr.png" alt="flats-list-d1-img" class="flat-image">
+                <h1 class="sunrise-avenue-flats-price">RS 4000/-</h1>
+                <div class="sunrise-avenue-flats-details d-flex">
+                    <img src="https://res.cloudinary.com/db3erodfw/image/upload/v1751918240/flats-list-location-icon-img_vdpi8f.png" alt="location-icon" class="location-icon">
+                    <p class="sunrise-avenue-address">D/N 5-2,Food street,Indore</p>
+                </div>
+                <h1 class="sunrise-avenue-flats-title">Description</h1>
+                <p class="sunrise-avenue-flat-description">A contemporary home with more color and vibrancy. It is fully furnished with elegant furniture. Its built-up area is about 3600sq.ft.</p>
+                <div class="text-center">
+                    <button class="sunrise-avenue-button">Confirm</button>
+                    <button class="sunrise-avenue-button" onclick="display('sectionFlatsList')">Back</button>
+                </div>
+            </div>            
+         </div>
+     </div>
+
+    <!-- CCBP UI Kit -->
+
+    <script
+      type="text/javascript"
+      src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"
+    ></script>
+</body>
+</html>
