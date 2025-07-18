@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+.products-section__title {
+  color: #1f2933;
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.product-card {
+  width: 100%;
+  height: 600px;
+  border-radius: 12px;
+  background-size: cover;
+}
+
+.vr-headset-bg-container {
+  background-image: url("https://res.cloudinary.com/db3erodfw/image/upload/v1752831557/vr-products-headset-img_xky19e.png");
+}
+
+.touch-controller-bg-container {
+  background-image: url("https://res.cloudinary.com/db3erodfw/image/upload/v1752831566/vr-products-headset-with-controllers-img_numfia.png");
+}
+
+.product-card__name,
+.product-card__price {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.product-card__name {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.product-card__price {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.product-card__button {
+  background-color: transparent;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 8px;
+  border: 2px solid #ffffff;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+
+.product-card__button:hover {
+  background-color: #ffffff;
+  color: #1f2933;
+}
+
+.product-view-all-button {
+  background-color: #1754a1;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 4px;
+  padding: 10px 40px;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.product-view-all-button:hover {
+  background-color: #143d73;
+}
